@@ -18,7 +18,7 @@ align-items: center;
     height: 20vh;
   }
 `
-const Image = styled.img`
+const Image = styled.Image`
  height: 60vh;
  margin-left: 5%;
 `
@@ -27,13 +27,10 @@ export default class Home extends React.Component{
         return (
             <>
             <Container>
-            <img src={Logo}/>
+            <Image src={Logo}/>
             <p>It's me</p>
             <Image src={Eu}/>
             </Container>
-            <div>
-            <Footer/>
-            </div>
             </>
         )
     }

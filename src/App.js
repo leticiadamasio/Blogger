@@ -5,6 +5,7 @@ import { BrowserRouter as Router, Routes, Route, Link } from "react-router-dom"
 import Home from "./Pages/Home.js"
 import Portifolio from "./Pages/Portifolio.js"
 import Onu from "./Pages/Onu.js"
+import Footer from "./Pages/Footer.js"
 
 const GlobalStyle = createGlobalStyle`
 * {
@@ -19,6 +20,7 @@ const GlobalStyle = createGlobalStyle`
 const Container = styled.div`
 background-color: #fbede0;
 min-height: 100vh;
+width: 100vw;
 
 `
 const List= styled.ul`
@@ -51,6 +53,7 @@ export default class App extends React.Component{
                 <Route path='/Onu' element={<Onu />} />
             </Routes>
         </Router>
+        <Footer/>
         </Container>
        
     )

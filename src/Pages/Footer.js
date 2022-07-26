@@ -21,7 +21,7 @@ const Icons = styled.div`
   }
  
 `
-const Images = styled.img`
+const Images = styled.Image`
   width: 3vw;
   @media (max-width:768px){
     width: 6vw;
@@ -37,9 +37,9 @@ const Images = styled.img`
 const Text = styled.p`
    color: black;
    width: 55%;
-   margin-left: 6.73vw;
+   margin-left: 6.75vw;
    margin-top: 2.25vh;
-   font-size: 3.5vh;
+   font-size: 3vh;
    font-family: 'Playfair Display', serif;
 `
 
