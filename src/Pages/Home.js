@@ -1,5 +1,4 @@
 import React from "react"
-import Footer from "./Footer.js"
 import styled from "styled-components"
 import Logo from "../img/03.png"
 import Eu from "../img/Eu.png"
@@ -7,7 +6,7 @@ import Eu from "../img/Eu.png"
 const Container = styled.section`
 background-color: #fbede0;
 display: flex;
-min-heigth: 100vh;
+min-height: 100vh;
 align-items: center;
   p{ 
     font-size: 10vh;
@@ -18,9 +17,9 @@ align-items: center;
     height: 20vh;
   }
 `
-const Image = styled.Image`
+const Image = styled.img`
  height: 60vh;
- margin-left: 5%;
+ margin-left: 10%;
 `
 export default class Home extends React.Component{
     render (){

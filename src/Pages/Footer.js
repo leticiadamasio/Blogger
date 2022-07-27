@@ -8,6 +8,7 @@ import Whatsapp from '../img/whatsapp.png'
 const Container = styled.section`
   background-color:#5a393e;
   display: flex;
+  margin-top: 2vh;
 `
 const Icons = styled.div` 
   display: flex; 
@@ -21,7 +22,7 @@ const Icons = styled.div`
   }
  
 `
-const Images = styled.Image`
+const Images = styled.img`
   width: 3vw;
   @media (max-width:768px){
     width: 6vw;

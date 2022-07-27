@@ -32,8 +32,7 @@ align-items: center;
 font-size: 3.5vh;
 font-family: 'Playfair Display', serif;
 font-weight: bold;
-margin-left: 50%;
-
+margin-left: 32%;
 `
 
 export default class App extends React.Component{

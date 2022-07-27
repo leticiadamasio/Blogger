@@ -11,18 +11,16 @@ background-color: #fbede0;
 display: flex;
 flex-wrap: wrap;
 min-height: 100vh;
-width: 100vw;
-align-items: center;
+width: 80vw;
+margin-left: 10vw;
 justify-content: space-evenly;
-border: solid 3px red;
 `
 const Box = styled.div`
 background-color: #fbede0;
-width: 25vw;
-height: 80.5vh;
-border: solid 4px purple;
+width: 24.75vw;
+height: 80.15vh;
+border: 3px solid #5a393e;
 margin-top: 2vh;
-margin-bottom: 1vh;
 h2{
     background-color: #5a393e;
     width: 24.5vw;
@@ -38,13 +36,13 @@ p{
     text-align: justify;  
     margin-top: 2vh;
     padding-left: 2vh;
+    padding-right: 2vh;
     padding-top: 2vh;
 }
 `
 const Image = styled.img`
 width: 20vw;
 height: 55vh;
-border: solid 3px red;
 margin-left: 2vw;
 margin-top: 2vh;
 
