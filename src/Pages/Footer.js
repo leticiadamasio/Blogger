@@ -18,7 +18,9 @@ const Icons = styled.div`
     width: 40vw;
   }
   @media (max-width:375px){
-    width: 55vw;
+    width: 30vw;
+    align-items: center;
+    margin-left: 1.5vw;
   }
  
 `
@@ -32,16 +34,23 @@ const Images = styled.img`
   }
   
   @media (max-width:375px){
-    width: 8vw;
+    width: 5vw;
   }
 `
 const Text = styled.p`
-   color: black;
-   width: 55%;
-   margin-left: 6.75vw;
-   margin-top: 2.25vh;
-   font-size: 3vh;
-   font-family: 'Playfair Display', serif;
+color: black;
+width: 55%;
+margin-left: 6.75vw;
+margin-top: 2.25vh;
+font-size: 3vh;
+font-family: 'Playfair Display', serif;
+@media (max-width:375px){
+  font-size: 2vh;
+  width: 65vw;
+  margin-left: 4vw;
+  margin-top: 0.25vh;
+  padding-top: 0.25vh;
+}
 `
 
 export default class Footer extends Component {

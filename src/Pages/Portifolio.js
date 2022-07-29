@@ -14,6 +14,7 @@ min-height: 100vh;
 width: 80vw;
 margin-left: 10vw;
 justify-content: space-evenly;
+
 `
 const Box = styled.div`
 background-color: #fbede0;
@@ -21,6 +22,7 @@ width: 24.75vw;
 height: 80.15vh;
 border: 3px solid #5a393e;
 margin-top: 2vh;
+align-items: center;
 h2{
     background-color: #5a393e;
     width: 24.5vw;
@@ -39,12 +41,34 @@ p{
     padding-right: 2vh;
     padding-top: 2vh;
 }
+@media (max-width:375px){
+    width: 39.7vw;
+    height: 52.15vh;
+
+h2{
+    width: 38.2vw;
+    height: 7vh;
+    font-size: 2.5vh;
+    padding-top: 2vh;
+}
+ p{
+    width: 38.2vw;
+    height: 15vh;
+    font-size: 1.75vh;
+ }  
+
+}
 `
 const Image = styled.img`
 width: 20vw;
 height: 55vh;
 margin-left: 2vw;
 margin-top: 2vh;
+@media (max-width:375px){
+    width: 30vw;
+    height: 25vh;
+    margin-left: 3vh;
+}
 
 `
 export default class Portifolio extends React.Component{

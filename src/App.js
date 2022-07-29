@@ -33,6 +33,11 @@ font-size: 3.5vh;
 font-family: 'Playfair Display', serif;
 font-weight: bold;
 margin-left: 32%;
+@media (max-width:375px){
+  width: 50vw;
+  font-size: 3vh;
+  margin-left: 25%;
+}
 `
 
 export default class App extends React.Component{
