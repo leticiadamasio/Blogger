@@ -62,11 +62,11 @@ export default class Home extends React.Component{
             <>
             <Container>
             <Boximg>
-            <Image src={Logo}/>
+            <Image src={Logo} alt="Logo"/>
             </Boximg>
             <Box>
             <p>It's me</p>
-            <Image src={Eu}/>
+            <Image src={Eu} alt="Autorretrato"/>
             </Box>
             </Container>
             </>
